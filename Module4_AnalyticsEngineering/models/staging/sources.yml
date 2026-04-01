@@ -2,7 +2,7 @@ version: 2
 
 sources:
   - name: staging
-    database: de-zoomcamp-terraform-485006   # your GCP project ID
+    database: de-zoomcamp123   # your GCP project ID
     schema: nytaxi                           # your dataset
 
     tables:
