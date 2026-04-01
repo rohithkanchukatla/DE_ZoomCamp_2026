@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: staging
+    database: de-zoomcamp-terraform-485006   # your GCP project ID
+    schema: nytaxi                           # your dataset
+
+    tables:
+      - name: green_tripdata
+      - name: yellow_tripdata
